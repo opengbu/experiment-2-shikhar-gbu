@@ -1,0 +1,24 @@
+//name-shikhar chaurasia
+//roll no-19/bhp/018
+//bsc physics hons
+
+#include<iostream>
+using namespace std;
+int main()
+{float a,b,c;
+cout<<"enter the value of three no's";
+cin>>a>>b>>c;
+if(a>b)
+{if(a>c)
+cout<<"a is greatest no"<<a;
+else
+cout<<"c is greatest no"<<c;
+}
+else if(b>c)
+{
+cout<<"b is greatest no"<<b;
+
+}
+else
+cout<<"c is greatest no"<<c;
+}
